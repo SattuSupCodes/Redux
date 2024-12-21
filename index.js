@@ -1,3 +1,5 @@
+const redux = require('redux')
+const createStore = redux.createStore
 console.log('from index.js')
 const BUY_CAKE = 'BUY_CAKE'
 // {
@@ -27,3 +29,6 @@ const reducer = (state = initialState, action) => {
         default: return state
     }
 }
+
+const store = createStore() 
+// myr edux actin like a bitch
