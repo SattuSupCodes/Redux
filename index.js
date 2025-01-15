@@ -15,7 +15,7 @@ function buyCake(){
 }
 
 // (previousState, action) => newState
-
+//cheat streak
 const initialState = {
     numOfCakes: 10
 }
@@ -31,4 +31,4 @@ const reducer = (state = initialState, action) => {
 }
 
 const store = createStore() 
-// myr edux actin like a bitch
+// myr edux actin like a
